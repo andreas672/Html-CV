@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <title>My Portofolio</title>
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">
+        <span class="logoA">and</span><span class="logoB">crst</span>
+      </div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">about</a></li>
+          <li><a href="#education">education</a></li>
+          <li><a href="#project">project</a></li>
+          <li><a href="#contact">contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo-B">
+        <span class="logoA">and</span><span class="logoB">crst</span>
+      </div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#education" onclick="toggleMenu()">education</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+
+    <!-- nav end  -->
+
+    <!-- About -->
+    <section id="about">
+      <div class="hero-left">
+          <h3 class="pre-nama">My Name Is</h3>
+          <h1 class="nama">Andreas cristianto</h1>
+          <p class="deskripsi">
+            student at the University of North Sumatra majoring in <br> information technology
+          </p>
+      </div>
+      <div class="hero-right">
+        <img src="assets/profile-pic.png" alt="photo" />
+      </div>
+    </section>
+
+    <!-- education -->
+    <section id="education"></section>
+
+    <!-- projects -->
+
+    <!-- contact -->
+    <script src="script.js"></script>
+  </body>
+</html>
